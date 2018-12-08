@@ -34,9 +34,10 @@
                 code: 'hello',
                 scope: 'hello',
                 table: 'fmcg',
-                json:true
+                json: true
             }).then(function (res) {
-                console.log(res);
+                const filteredRows = res.rows.filter((row) => row.status == 'crd')
+                console.log(JSON.stringify(filteredRows))
             });
         }
     </script>

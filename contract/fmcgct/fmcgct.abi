@@ -1,5 +1,5 @@
 {
-    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sat Dec  8 11:40:14 2018",
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sat Dec  8 12:09:55 2018",
     "version": "eosio::abi/1.1",
     "structs": [
         {
@@ -7,7 +7,7 @@
             "base": "",
             "fields": [
                 {
-                    "name": "dtid",
+                    "name": "dt_id",
                     "type": "name"
                 },
                 {
@@ -29,7 +29,7 @@
             "base": "",
             "fields": [
                 {
-                    "name": "dtid",
+                    "name": "dt_id",
                     "type": "name"
                 },
                 {

@@ -30,11 +30,11 @@
         }
 
         function findByDtId() {
-            eosGlobal.get_table_rows({
-                code: 'CONTRACT_NAME',
-                scope: 'SCOPE_ACCOUNT (Normally contract)',
-                table: 'TABLE_NAME',
-                json: true,
+            eosGlobal.getTableRows({
+                code: 'hello',
+                scope: 'hello',
+                table: 'fmcg',
+                json:true
             }).then(function (res) {
                 console.log(res);
             });

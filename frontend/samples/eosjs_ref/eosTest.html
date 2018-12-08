@@ -8,7 +8,7 @@
             chainId: 'cf057bbfb72640471fd910bcb67639c22df9f92470936cddc1ade0e2f2e7dc4f',
         });
 
-        function sendToSmartContract() {
+        function invokePromote() {
             globalEosRef.transaction({
                 actions: [
                     {
@@ -29,7 +29,7 @@
             });
         }
 
-        function findByDtId() {
+        function invokeReadByDtId() {
             globalEosRef.getTableRows({
                 code: 'hello',
                 scope: 'hello',
@@ -43,7 +43,7 @@
     </script>
 </head>
 <body>
-<a href="#" onclick="sendToSmartContract()">sendToSmartContract()</a><br/><br/><br/>
-<a href="#" onclick="findByDtId()">findByID()</a><br/><br/><br/>
+<a href="#" onclick="invokePromote()">invokePromote()</a><br/><br/><br/>
+<a href="#" onclick="invokeReadByDtId()">invokeReadByDtId()</a><br/><br/><br/>
 </body>
 </html>

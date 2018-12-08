@@ -15,11 +15,11 @@
                     "type": "name"
                 },
                 {
-                    "name": "entityid",
+                    "name": "entity_id",
                     "type": "name"
                 },
                 {
-                    "name": "entitytype",
+                    "name": "entity_type",
                     "type": "name"
                 }
             ]
@@ -37,11 +37,11 @@
                     "type": "name"
                 },
                 {
-                    "name": "entityid",
+                    "name": "entity_id",
                     "type": "name"
                 },
                 {
-                    "name": "entitytype",
+                    "name": "entity_type",
                     "type": "name"
                 }
             ]

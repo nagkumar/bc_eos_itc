@@ -10,8 +10,8 @@ CONTRACT fmcgct : public contract {
 		TABLE fmcg_tbl {
 			name dt_id;
 			name status;
-			name entityid;
-			name entitytype;
+			name entity_id;
+			name entity_type;
       	 auto primary_key() const { return dt_id.value; }
        };
 
@@ -22,6 +22,6 @@ CONTRACT fmcgct : public contract {
 	public:
 		fmcgct( name receiver, name code, datastream<const char*> ds):contract(receiver,code, ds),_fmcgtbl(code, code.value){}
 
-		ACTION promote(name dt_id, name status, name entityid, name entitytype);
+		ACTION promote(name dt_id, name status, name entity_id, name entity_type);
 
 };

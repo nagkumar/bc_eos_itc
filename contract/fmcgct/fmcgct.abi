@@ -1,0 +1,70 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Sat Dec  8 11:40:14 2018",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "fmcg_tbl",
+            "base": "",
+            "fields": [
+                {
+                    "name": "dtid",
+                    "type": "name"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                },
+                {
+                    "name": "entityid",
+                    "type": "name"
+                },
+                {
+                    "name": "entitytype",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "promote",
+            "base": "",
+            "fields": [
+                {
+                    "name": "dtid",
+                    "type": "name"
+                },
+                {
+                    "name": "status",
+                    "type": "name"
+                },
+                {
+                    "name": "entityid",
+                    "type": "name"
+                },
+                {
+                    "name": "entitytype",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "promote",
+            "type": "promote",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "fmcg",
+            "type": "fmcg_tbl",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}

@@ -1,7 +1,6 @@
 <html>
 <head>
-    <script src="scripts/eos.min.js">
-    </script>
+    <script src="scripts/eos.min.js"></script>
     <script>
         const eosGlobal = Eos({
             keyProvider: '5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3',
@@ -29,9 +28,21 @@
                 ]
             });
         }
+
+        function findByDtId() {
+            eosGlobal.get_table_rows({
+                code: 'CONTRACT_NAME',
+                scope: 'SCOPE_ACCOUNT (Normally contract)',
+                table: 'TABLE_NAME',
+                json: true,
+            }).then(function (res) {
+                console.log(res);
+            });
+        }
     </script>
 </head>
 <body>
-<a href="#" onclick="javascript:sendToSmartContract()">TEST</a>
+<a href="#" onclick="sendToSmartContract()">sendToSmartContract()</a><br/>
+<a href="#" onclick="findByDtId()">findByID()</a>
 </body>
 </html>

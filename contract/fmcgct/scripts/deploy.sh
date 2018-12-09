@@ -6,3 +6,8 @@ cd ..
 cleos --url http://127.0.0.1:7777 set contract hello ./fmcgct -p hello@active
 cleos --url http://127.0.0.1:7777 push action hello promote '["mg121", "crd","itc", "mfr"]' -p hello@active
 cleos --url http://127.0.0.1:7777 get table hello hello fmcg
+
+
+cleos --url http://127.0.0.1:7777 set fmcgct hello hello --clear
+
+cleos --url http://127.0.0.1:7777 set contract account directory --clear

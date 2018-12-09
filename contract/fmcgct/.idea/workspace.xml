@@ -13,10 +13,12 @@
       <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmcgct.abi" beforeDir="false" afterPath="$PROJECT_DIR$/fmcgct.abi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmcgct.abi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmcgct.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/fmcgct.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fmcgct.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/fmcgct.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fmcgct.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/fmcgct.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fmcgct.wasm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/eosCreate.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/eosCreate.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/samples/barcode/txt/ExBarCodeText.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/samples/barcode/txt/ExBarCodeText.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../frontend/samples/eosjs_ref/eosTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../frontend/samples/eosjs_ref/eosTest.html" afterDir="false" />
     </list>
@@ -31,35 +33,7 @@
     <favorites_list name="fmcgct" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fmcgct.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fmcgct.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/deploy.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -94,10 +68,10 @@
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/bin/eosCreate.sh" />
         <option value="$PROJECT_DIR$/scripts/node.sh" />
-        <option value="$PROJECT_DIR$/scripts/eosCreate.sh" />
+        <option value="$PROJECT_DIR$/scripts/deploy.sh" />
         <option value="$PROJECT_DIR$/fmcgct.cpp" />
         <option value="$PROJECT_DIR$/fmcgct.hpp" />
-        <option value="$PROJECT_DIR$/scripts/deploy.sh" />
+        <option value="$PROJECT_DIR$/scripts/eosCreate.sh" />
       </list>
     </option>
   </component>
@@ -178,7 +152,7 @@
       <workItem from="1544278504439" duration="1292000" />
       <workItem from="1544285775122" duration="1716000" />
       <workItem from="1544289243637" duration="6000" />
-      <workItem from="1544309939218" duration="5432000" />
+      <workItem from="1544309939218" duration="8891000" />
     </task>
     <task id="LOCAL-00001" summary="werrew">
       <created>1544271032206</created>
@@ -215,15 +189,21 @@
       <option name="project" value="LOCAL" />
       <updated>1544315604600</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="werrew">
+      <created>1544315917274</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1544315917274</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12252000" />
+    <option name="totallyTimeSpent" value="15711000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.13432837" />
@@ -295,39 +275,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/node.sh" />
     <entry file="file://$PROJECT_DIR$/fmcgct.abi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="1071">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/node.sh" />
     <entry file="file://$PROJECT_DIR$/scripts/eosCreate.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="527">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fmcgct.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fmcgct.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fmcgct.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
         </state>
       </provider>
     </entry>
